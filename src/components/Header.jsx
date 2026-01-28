@@ -6,7 +6,7 @@ export default function Header() {
         <li className="text-xl font-semibold hover:text-amarelo transition-colors cursor-pointer">Catálogo</li>
         <li className="text-xl font-semibold hover:text-amarelo transition-colors cursor-pointer">Sobre Nós</li>
         <li className="text-xl font-semibold hover:text-amarelo transition-colors cursor-pointer">Valores</li>
-        <button className="px-5 py-3 bg-[#1E1E1E] rounded-3xl text-xl font-semibold hover:bg-amarelo transition-colors cursor-pointer">Fale com um especialista</button>
+        <button className="px-6 py-2 bg-[#1E1E1E] rounded-3xl text-xl font-semibold hover:bg-amarelo transition-colors cursor-pointer">Fale com um especialista</button>
       </ul>
     </header>
   );

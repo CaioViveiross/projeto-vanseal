@@ -16,14 +16,12 @@
 @layer utilities {
   .font-titulo {
     font-family: var(--font-titulo);
-    font-weight: 700;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.02em;
     line-height: 1.2;
   }
 
   .font-corpo {
     font-family: var(--font-corpo);
-    font-weight: 400;
     letter-spacing: 0.02em;
     line-height: 1.6;
   }
