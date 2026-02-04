@@ -17,7 +17,7 @@ export default function Section5() {
                     <img
                         src="/images/atendente.png"
                         alt="Contato Vanseal"
-                        className="w-40 sm:w-48 md:w-56 lg:w-64 max-w-full object-contain"
+                        className="w-40 sm:w-48 md:w-56 lg:w-86 max-w-full object-contain"
                     />
                 </div>
 
@@ -35,14 +35,38 @@ export default function Section5() {
                         <input type="text" className="border-1 rounded-full ps-3 w-full p-1 font-titulo text-sm focus:outline-none" />
                     </div>
                     <div className="mt-4">
+                        <p className="text-sm ml-2 mb-2 font-titulo">No que podemos te ajudar?</p>
                         <textarea
                             className="border-1 rounded-3xl px-4 py-3 w-full h-32 sm:h-36 lg:h-40 resize-none font-titulo focus:outline-none text-sm" />
                     </div>
 
-                    <div className="flex text-end gap-4 mr-1 sm:mr-4 mt-2 items-center justify-end">
-                        <button className="">Enviar</button>
-                        <MoveRight size={20} />
+                    <div className="flex gap-3 mr-1 sm:mr-4 mt-4 items-center justify-end">
+                        <button
+                            className="
+                                group
+                                flex items-center gap-2
+                                bg-[#1C1F88] text-white
+                                px-6 py-2 rounded-full
+                                font-titulo text-sm
+                                transition-all duration-300
+                                hover:bg-[#141766]
+                                cursor-pointer
+                                "
+                        >
+                            Enviar
+
+                            <MoveRight
+                                size={18}
+                                className="
+                                    transition-transform duration-300
+                                    group-hover:translate-x-1
+                                "
+                            />
+                        </button>
                     </div>
+
+
+
                 </div>
             </div>
         </section>

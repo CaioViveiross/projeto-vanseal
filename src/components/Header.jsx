@@ -13,11 +13,11 @@ export default function Header() {
   };
 
   return (
-    <header className="flex items-center justify-between text-white w-full px-4 sm:px-8 md:px-14 lg:px-28 py-6 sm:py-10 md:py-16 lg:py-24">
+    <header className="flex items-center justify-between text-white w-full px-4 sm:px-8 md:px-14 lg:px-31 py-6 sm:py-10 md:py-16 lg:py-25">
       <img
-        src="/images/logo_vanseal_azul.svg"
+        src="/images/logo_vanseal_branca.svg"
         alt="Vanseal Logo"
-        className="w-36 sm:w-48 md:w-60 lg:w-80"
+        className="w-36 sm:w-40 md:w-60 lg:w-60"
       />
 
       <ul className="hidden md:flex items-center gap-6 lg:gap-16 font-corpo">
@@ -56,7 +56,7 @@ export default function Header() {
       </button>
 
       {menuOpen && (
-        <nav className="md:hidden fixed inset-0 top-0 left-0 w-full h-full bg-black/90 z-50 flex flex-col items-center justify-center gap-8 font-corpo">
+        <nav className="md:hidden fixed inset-0 top-0 left-0 w-full h-full bg-black/90 z-100 flex flex-col items-center justify-center gap-8 font-corpo">
           <button
             className="absolute top-6 right-4 text-white"
             onClick={() => setMenuOpen(false)}

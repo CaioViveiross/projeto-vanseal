@@ -15,6 +15,9 @@ export default function Footer() {
                         <img src="/images/whatsapp.svg" alt="Whatsapp" className="w-5" />
                         <p>(11) 93331-8373</p>
                     </div>
+                    <div className="flex">
+                        <p>@vanseal.br</p>
+                    </div>
                 </div>
             </div>
 
