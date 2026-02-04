@@ -6,7 +6,7 @@ export default function Section2() {
       id="catalogo"
       className="relative w-full min-h-screen flex flex-col items-center pt-16 sm:pt-24 md:pt-32 lg:pt-40 text-black px-4 sm:px-6"
     >
-      <h2 className="font-titulo font-light italic text-lg sm:text-xl text-center">
+      <h2 className="font-titulo font-light italic text-lg sm:text-xl text-center" >
         Catálogo
       </h2>
 

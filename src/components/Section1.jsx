@@ -3,6 +3,7 @@ import Header from "./Header";
 
 
 export default function Section1() {
+
   return (
     <section
       className="relative w-full min-h-screen bg-center bg-cover bg-no-repeat"
@@ -21,8 +22,22 @@ export default function Section1() {
             <strong>segurança</strong>, a <strong>eficiência</strong> e a{" "}
             <strong>longevidade</strong> nos produtos aos nossos clientes.
           </p>
-          <div className="flex gap-3 sm:gap-4 items-center cursor-pointer mt-6 sm:mt-8 lg:mt-12">
-            <p className="text-base sm:text-lg md:text-xl italic">
+         <div
+            className="flex gap-3 sm:gap-4 items-center cursor-pointer mt-6 sm:mt-8 lg:mt-12"
+            role="button"
+            tabIndex={0}
+            onClick={() => {
+              const el = document.getElementById("catalogo");
+              if (el) el.scrollIntoView({ behavior: "smooth" });
+            }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+                const el = document.getElementById("catalogo");
+                if (el) el.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
+          >
+            <p className="text-base sm:text-lg md:text-xl italic" >
               Conheça nossas soluções
             </p>
             <MoveRight size={24} className="sm:w-7 sm:h-7" />
