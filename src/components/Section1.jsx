@@ -23,7 +23,7 @@ export default function Section1() {
             <strong>longevidade</strong> nos produtos aos nossos clientes.
           </p>
          <div
-            className="flex gap-3 sm:gap-4 items-center cursor-pointer mt-6 sm:mt-8 lg:mt-12"
+            className="flex gap-3 sm:gap-4 items-center cursor-pointer mt-6 sm:mt-8 lg:mt-10 mb-10 sm:mb-12 lg:mb-18"
             role="button"
             tabIndex={0}
             onClick={() => {

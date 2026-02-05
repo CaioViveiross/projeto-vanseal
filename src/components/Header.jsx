@@ -49,25 +49,25 @@ export default function Header() {
 
         <ul className="hidden md:flex items-center gap-6 lg:gap-16 font-corpo">
           <li 
-            className="text-base lg:text-xl font-semibold hover:text-amarelo transition-colors cursor-pointer"
+            className="text-base font-semibold hover:text-amarelo transition-colors cursor-pointer"
             onClick={() => scrollToSection("catalogo")}
           >
             Catálogo
           </li>
           <li 
-            className="text-base lg:text-xl font-semibold hover:text-amarelo transition-colors cursor-pointer"
+            className="text-base font-semibold hover:text-amarelo transition-colors cursor-pointer"
             onClick={() => scrollToSection("sobre")}
           >
             Sobre Nós
           </li>
           <li 
-            className="text-base lg:text-xl font-semibold hover:text-amarelo transition-colors cursor-pointer"
+            className="text-base font-semibold hover:text-amarelo transition-colors cursor-pointer"
             onClick={() => scrollToSection("valores")}
           >
             Valores
           </li>
           <button 
-            className="px-4 lg:px-6 py-2 bg-[#1E1E1E] rounded-3xl text-base lg:text-xl font-semibold hover:bg-amarelo transition-colors cursor-pointer"
+            className="px-4 lg:px-6 py-2 bg-[#1E1E1E] rounded-3xl text-base font-semibold hover:bg-amarelo transition-colors cursor-pointer"
             onClick={() => scrollToSection("contato")}
           >
             Fale com um especialista
