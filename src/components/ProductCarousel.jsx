@@ -132,7 +132,7 @@ export default function ProductCarousel() {
         <ChevronLeft size={20} className="sm:w-6 sm:h-6" />
       </button>
 
-      <div ref={viewportRef} className="overflow-hidden flex-1">
+      <div ref={viewportRef} className="overflow-hidden flex-1 relative z-0">
         <div
           className={`flex gap-6 ${
             animate ? "transition-transform duration-500 ease-in-out" : ""

@@ -11,7 +11,7 @@ export default function Section1() {
     >
       <div className="absolute inset-0 bg-black/40" />
 
-      <div className="relative z-10">
+      <div className="relative">
         <Header />
         <div className="px-4 sm:px-8 md:px-14 lg:px-34 mt-10 sm:mt-16 md:mt-20 lg:mt-28 flex flex-col gap-6 sm:gap-8 lg:gap-10">
           <h1 className="text-3xl sm:text-4xl md:text-5xl text-amarelo font-titulo font-bold">
